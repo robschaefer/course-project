@@ -28,7 +28,7 @@ The script performs the following procedures
 - subset the merged dataset by only keeping columns containing mean or std
 - convert activity codes to actual activity names
 - use melt() to create narrow dataset keeping Subject and Activity columns
-- use dcase() to create wide tidy data, aggregating and finding the mean of each subject-activity-variable occurance
+- use dcast() to create wide tidy data, aggregating and finding the mean of each subject-activity-variable occurance
 - perform substitutions to make variable names more descriptive
 - place tidy data in tinydata.txt
 
