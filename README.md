@@ -20,9 +20,8 @@ The output of the script is a tidy data set called tinydata.txt
 
 The script performs the following procedures
 
-- read in the results, subject and activity data sets for the test and training groupd
+- read in the results, subject and activity data sets for the test and training groups
 - read in the variable names from features.txt
-- perform substitutions to make variable names more descriptive
 - assign variables as columnn names on the test and training results
 - use cbind() to put together complete data frames for test and training data
 - use rbind() to merge the 2 datasets into one
@@ -30,5 +29,6 @@ The script performs the following procedures
 - convert activity codes to actual activity names
 - use melt() to create narrow dataset keeping Subject and Activity columns
 - use dcase() to create wide tidy data, aggregating and finding the mean of each subject-activity-variable occurance
+- perform substitutions to make variable names more descriptive
 - place tidy data in tinydata.txt
 
